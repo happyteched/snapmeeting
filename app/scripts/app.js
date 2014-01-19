@@ -4,7 +4,7 @@ angular.module('snapmeetingApp', [
   'ngCookies',
   'ngResource',
   'ngSanitize',
-  'ngRoute'
+  'ngRoute','snapmeetingApp.controllers','snapmeetingApp.services'
 ])
   .config(function ($routeProvider) {
     $routeProvider
